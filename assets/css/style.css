@@ -1,0 +1,52 @@
+/* ===========================================
+================ Testtimonial ================  
+=========================================== */
+#testimonial-carousel .item{
+    padding: 10px;
+    opacity: 0.8;
+}
+#testimonial-carousel .owl-item.active.center .item{
+    opacity: 1 !important;
+    transform: scale(1.05);
+}
+.photo-box{
+    position: relative;
+    overflow: hidden;
+    
+}
+.photo-img img{
+    filter: brightness(80%);
+}
+.photo-heading{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    transition: .7s all ease;
+}
+.photo-icon{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    
+}
+.photo-icon a{
+    color: #fff;
+}
+.photo-textarea{
+    position: absolute;
+    bottom: -160px;
+    right: -55px;
+    transition: .7s all ease;
+}
+.photo-textarea a{
+    color: #000;
+    background-color: #fff;
+}
+.photo-box:hover .photo-heading{
+    top: 0px;
+}
+
+.photo-box:hover .photo-textarea{
+    bottom: 150px;
+}
